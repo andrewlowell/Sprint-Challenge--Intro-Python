@@ -21,6 +21,8 @@ class GroundVehicle():
 
 # TODO
 
+# Add a comment to test committing in VSCode, super ignore this
+
 class Motorcycle(GroundVehicle):
   def __init__(self):
     super().__init__(2)

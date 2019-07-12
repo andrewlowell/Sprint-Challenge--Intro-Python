@@ -9,8 +9,7 @@ class GroundVehicle():
 
     # TODO
 
-    @staticmethod
-    def drive():
+    def drive(self):
       return "vroooom"
 
 # Subclass Motorcycle from GroundVehicle.
@@ -26,8 +25,7 @@ class Motorcycle(GroundVehicle):
   def __init__(self):
     super().__init__(2)
 
-  @staticmethod
-  def drive():
+  def drive(self):
     return "BRAAAP!!"
 
 vehicles = [
